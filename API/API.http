@@ -1,0 +1,13 @@
+@API_HostAddress = http://localhost:5000
+
+GET {{API_HostAddress}}/api/weatherforecast/
+Accept: application/json
+
+###
+GET {{API_HostAddress}}/api/activities/
+Accept: application/json
+
+###
+GET {{API_HostAddress}}/api/activities/12633a28-6e1a-48ee-9f81-1f3fb83a09f0
+Accept: application/json
+
